@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [
     vue()
   ],
-  base: '/fiom2307.github.io/',
+  base: '/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
