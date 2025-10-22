@@ -1,0 +1,39 @@
+{
+    "navbar":{
+        "cv": "Lebenslauf"
+    },
+    "hero": {
+        "slide1": {
+            "title": "Hallo! Ich bin ",
+            "subtitle": "Informatikstudentin an der TUM.",
+            "description": "Ich interessiere mich für KI, Lerntechnologien und dafür, wie Kreativität Technologie menschlicher machen kann."
+        },
+        "slide2": {
+            "title": "",
+            "subtitle": "",
+            "description": ""
+        }
+    },
+    "projectsection": {
+        "title": "Projekte",
+        "projects": [
+            {
+                "title": "Portfolio Website",
+                "description": "Personal website built mit Vue und Tailwind.",
+                "tags": ["Vue", "Tailwind", "i18n"],
+                "link": "https://github.com/"
+            }
+        ]
+    },
+    "contactmesection": {
+        "title": "Kontakt",
+        "contactform": {
+            "name": "Name",
+            "email": "E-Mail",
+            "subject": "Betreff",
+            "message": "Nachricht",
+            "send": "Senden"
+        }
+    }
+}
+

@@ -1,0 +1,38 @@
+{
+    "navbar":{
+        "cv": "Resume"
+    },
+    "hero": {
+        "slide1": {
+            "title": "Hi! I’m ",
+            "subtitle": "a Computer Science student at TUM.",
+            "description": "I’m curious about AI, learning technologies, and how creativity can make technology more human."
+        },
+        "slide2": {
+            "title": "",
+            "subtitle": "",
+            "description": ""
+        }
+    },
+    "projectsection": {
+        "title": "Projects",
+        "projects": [
+            {
+                "title": "Portfolio Website",
+                "description": "Personal website built with Vue and Tailwind.",
+                "tags": ["Vue", "Tailwind", "i18n"],
+                "link": "https://github.com/"
+            }
+        ]
+    },
+    "contactmesection": {
+        "title": "Contact Me",
+        "contactform": {
+            "name": "Name",
+            "email": "Email",
+            "subject": "Subject",
+            "message": "Message",
+            "send": "Send"
+        }
+    }
+}

@@ -1,10 +1,21 @@
 <script setup>
+import Navbar from './components/Navbar.vue'
+import HeroSection from './components/HeroSection.vue'
+import ProjectsSection from './components/ProjectsSection.vue'
+import ContactMeSection from './components/ContactMeSection.vue'
 </script>
 
 <template>
-  <main class="min-h-screen w-full flex flex-col items-center justify-center bg-pink-100 text-pink-700">
-    <h1 class="text-6xl font-extrabold mb-4">Fiorella 🌸</h1>
-    <p class="text-xl">Welcome to my personal website!</p>
+  <Navbar />
+
+  <main class="min-h-screen bg-pink-soft text-center text-dark-blue font-sans">
+
+    <HeroSection />
+
+    <ProjectsSection />
+
+    <ContactMeSection />
+
   </main>
 </template>
 
