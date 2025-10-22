@@ -3,36 +3,33 @@
         "cv": "Resume"
     },
     "hero": {
-        "slide1": {
-            "title": "Hi! I’m ",
-            "subtitle": "a Computer Science student at TUM.",
-            "description": "I’m curious about AI, learning technologies, and how creativity can make technology more human."
-        },
-        "slide2": {
-            "title": "",
-            "subtitle": "",
-            "description": ""
-        }
+        "title": "Hi! I’m ",
+        "subtitle": "a Computer Science student",
+        "description": "with an interest in web development and currently exploring artificial intelligence."
+    },
+    "aboutsection": {
+        "title": "About Me",
+        "content": {
+            "intro": "I’m a Computer Science student at the Technical University of Munich, now in my fifth semester.\nMy main tools are Vue, React, JavaScript, Tailwind, HTML and CSS, but I’ve also worked with Java, Python, C++, OCaml and MySQL.",
+            "motivation": "What I love most about technology is how accessible it is. I can experiment, create, and learn whenever I want. I enjoy improving my skills and I’m taking courses in AI, applying what I learn to a university project focused on enhancing language education.",
+            "languages": {
+                "intro": "I’m from Lima, Peru and live in Munich. I speak ",
+                "german": "German (C2)",
+                "english": "English (B2)",
+                "spanish": "Spanish (native speaker)"
+            }
+        } 
+        
     },
     "projectsection": {
         "title": "Projects",
         "projects": [
             {
                 "title": "Portfolio Website",
-                "description": "Personal website built with Vue and Tailwind.",
+                "description": "Responsive portfolio built with Vue 3 and Tailwind CSS to showcase my work and skills.",
                 "tags": ["Vue", "Tailwind", "i18n"],
-                "link": "https://github.com/"
+                "link": "https://fiom2307.github.io/"
             }
         ]
-    },
-    "contactmesection": {
-        "title": "Contact Me",
-        "contactform": {
-            "name": "Name",
-            "email": "Email",
-            "subject": "Subject",
-            "message": "Message",
-            "send": "Send"
-        }
     }
 }

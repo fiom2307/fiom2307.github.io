@@ -1,38 +1,34 @@
 {
-    "navbar":{
+    "navbar": {
         "cv": "Currículum"
     },
     "hero": {
-        "slide1": {
-            "title": "¡Hola! Soy ",
-            "subtitle": "estudiante de Ciencias de la Computación en la TUM.",
-            "description": "Me interesa la inteligencia artificial, las tecnologías de aprendizaje y cómo la creatividad puede hacer que la tecnología sea más humana."
-        },
-        "slide2": {
-            "title": "",
-            "subtitle": "",
-            "description": ""
+        "title": "¡Hola! Soy ",
+        "subtitle": "estudiante de Ciencias de la Computación",
+        "description": "con interés en el desarrollo web y explorando el campo de la inteligencia artificial."
+    },
+    "aboutsection": {
+        "title": "Sobre mí",
+        "content": {
+            "intro": "Soy estudiante de Ciencias de la Computación en la Universidad Técnica de Múnich, actualmente en mi quinto semestre.\nMis principales herramientas son Vue, React, JavaScript, Tailwind, HTML y CSS, aunque también he trabajado con Java, Python, C++, OCaml y MySQL.",
+            "motivation": "Lo que más me gusta de la tecnología es lo accesible que es. Puedo experimentar, crear y aprender cuando quiera. Disfruto mejorar mis habilidades y estoy llevando cursos de inteligencia artificial, aplicando lo aprendido en un proyecto universitario enfocado en mejorar la enseñanza de idiomas.",
+            "languages": {
+                "intro": "Soy de Lima, Perú, y vivo en Múnich. Hablo ",
+                "german": "alemán (C2)",
+                "english": "inglés (B2)",
+                "spanish": "español (nativo)"
+            }
         }
     },
     "projectsection": {
         "title": "Proyectos",
         "projects": [
             {
-                "title": "Portfolio Website",
-                "description": "Personal website creada con Vue y Tailwind.",
+                "title": "Sitio web personal",
+                "description": "Portafolio responsivo desarrollado con Vue 3 y Tailwind CSS para mostrar mis proyectos y habilidades.",
                 "tags": ["Vue", "Tailwind", "i18n"],
-                "link": "https://github.com/"
+                "link": "https://fiom2307.github.io/"
             }
         ]
-    },
-    "contactmesection": {
-        "title": "Contáctame",
-        "contactform": {
-            "name": "Nombre",
-            "email": "Correo electrónico",
-            "subject": "Asunto",
-            "message": "Mensaje",
-            "send": "Enviar"
-        }
     }
 }

@@ -1,39 +1,34 @@
 {
-    "navbar":{
+    "navbar": {
         "cv": "Lebenslauf"
     },
     "hero": {
-        "slide1": {
-            "title": "Hallo! Ich bin ",
-            "subtitle": "Informatikstudentin an der TUM.",
-            "description": "Ich interessiere mich für KI, Lerntechnologien und dafür, wie Kreativität Technologie menschlicher machen kann."
-        },
-        "slide2": {
-            "title": "",
-            "subtitle": "",
-            "description": ""
+        "title": "Hallo! Ich bin ",
+        "subtitle": "Informatikstudentin",
+        "description": "mit Interesse an Webentwicklung und derzeit Erforschung von künstlicher Intelligenz."
+    },
+    "aboutsection": {
+        "title": "Über mich",
+        "content": {
+            "intro": "Ich bin Informatikstudentin an der Technischen Universität München und befinde mich derzeit im fünften Semester.\nMeine Hauptwerkzeuge sind Vue, React, JavaScript, Tailwind, HTML und CSS, aber ich habe auch mit Java, Python, C++, OCaml und MySQL gearbeitet.",
+            "motivation": "Was mir an der Technologie am meisten gefällt, ist, wie zugänglich sie ist. Ich kann jederzeit experimentieren, gestalten und Neues lernen. Ich erweitere ständig meine Fähigkeiten und belege derzeit Kurse in KI, wobei ich das Gelernte in einem Universitätsprojekt zur Verbesserung des Sprachunterrichts anwende.",
+            "languages": {
+                "intro": "Ich komme aus Lima, Peru, und lebe in München. Ich spreche ",
+                "german": "Deutsch (C2)",
+                "english": "Englisch (B2)",
+                "spanish": "Spanisch (Muttersprache)"
+            }
         }
     },
     "projectsection": {
         "title": "Projekte",
         "projects": [
             {
-                "title": "Portfolio Website",
-                "description": "Personal website built mit Vue und Tailwind.",
+                "title": "Portfolio-Website",
+                "description": "Responsive Portfolio-Website, entwickelt mit Vue 3 und Tailwind CSS, um meine Arbeit und Fähigkeiten zu präsentieren.",
                 "tags": ["Vue", "Tailwind", "i18n"],
-                "link": "https://github.com/"
+                "link": "https://fiom2307.github.io/"
             }
         ]
-    },
-    "contactmesection": {
-        "title": "Kontakt",
-        "contactform": {
-            "name": "Name",
-            "email": "E-Mail",
-            "subject": "Betreff",
-            "message": "Nachricht",
-            "send": "Senden"
-        }
     }
 }
-
