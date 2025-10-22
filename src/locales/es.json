@@ -1,0 +1,38 @@
+{
+    "navbar":{
+        "cv": "Currículum"
+    },
+    "hero": {
+        "slide1": {
+            "title": "¡Hola! Soy ",
+            "subtitle": "estudiante de Ciencias de la Computación en la TUM.",
+            "description": "Me interesa la inteligencia artificial, las tecnologías de aprendizaje y cómo la creatividad puede hacer que la tecnología sea más humana."
+        },
+        "slide2": {
+            "title": "",
+            "subtitle": "",
+            "description": ""
+        }
+    },
+    "projectsection": {
+        "title": "Proyectos",
+        "projects": [
+            {
+                "title": "Portfolio Website",
+                "description": "Personal website creada con Vue y Tailwind.",
+                "tags": ["Vue", "Tailwind", "i18n"],
+                "link": "https://github.com/"
+            }
+        ]
+    },
+    "contactmesection": {
+        "title": "Contáctame",
+        "contactform": {
+            "name": "Nombre",
+            "email": "Correo electrónico",
+            "subject": "Asunto",
+            "message": "Mensaje",
+            "send": "Enviar"
+        }
+    }
+}
